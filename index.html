@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+</head>
+<body>
+
+    <h2>Vul de gegevens in</h2>
+    
+    <form action="processing.php" method="POST">
+        <fieldset>
+            <legend>Persoon 1</legend>
+            <label for="naam1">Naam:</label>
+            <input type="text" id="naam1" name="naam1" required>
+            <br>
+            <label for="leeftijd1">Leeftijd:</label>
+            <input type="number" id="leeftijd1" name="leeftijd1" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Persoon 2</legend>
+            <label for="naam2">Naam:</label>
+            <input type="text" id="naam2" name="naam2" required>
+            <br>
+            <label for="leeftijd2">Leeftijd:</label>
+            <input type="number" id="leeftijd2" name="leeftijd2" required>
+        </fieldset>
+
+        <br>
+        <button type="submit">Verzenden</button>
+        <button type="reset">Annuleren</button>
+    </form>
+
+</body>
+</html>
